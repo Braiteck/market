@@ -1052,4 +1052,26 @@
     /*-----------
         PopUp
     -----------*/
+    .modal_data
+    {
+        padding: 34px;
+    }
+
+
+    .modal_data .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .modal .or_call
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-top: 24px;
+    }
 }

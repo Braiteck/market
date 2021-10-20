@@ -47,6 +47,19 @@ $(() => {
 	}
 
 
+	// Всплывающие окна
+	$('body').on('click', '.modal_btn', function (e) {
+		e.preventDefault()
+
+		Fancybox.close()
+
+		Fancybox.show([{
+			src: $(this).data('content'),
+			type: 'inline'
+		}])
+	})
+
+
 	// Табы
 	var locationHash = window.location.hash
 

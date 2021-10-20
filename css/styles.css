@@ -3696,6 +3696,112 @@ footer .copyright
 
 
 
+.modal_data
+{
+    position: relative;
+    z-index: 3;
+
+    overflow: hidden;
+
+    padding: 47px 98px 31px 71px;
+
+    background: #ffea85;
+}
+
+
+.modal_data .title
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+
+    margin-bottom: 28px;
+
+    text-transform: uppercase;
+}
+
+
+.modal_data .modal_parallax1
+{
+    position: absolute;
+    z-index: -1;
+    bottom: 124px;
+    left: 178px;
+
+    display: block;
+
+    width: 80px;
+
+    pointer-events: none;
+}
+
+.modal_data .modal_parallax2
+{
+    position: absolute;
+    z-index: -1;
+    right: 178px;
+    bottom: 124px;
+
+    display: block;
+
+    width: 80px;
+
+    transform: rotate(180deg);
+    pointer-events: none;
+}
+
+.modal_data .modal_parallax3
+{
+    position: absolute;
+    z-index: -1;
+    bottom: 64px;
+    left: 60px;
+
+    display: block;
+
+    width: 60px;
+
+    pointer-events: none;
+}
+
+.modal_data .modal_parallax4
+{
+    position: absolute;
+    z-index: -1;
+    top: -24px;
+    right: 13px;
+
+    display: block;
+
+    width: 255px;
+    height: 129px;
+
+    pointer-events: none;
+}
+
+
+.modal .or_call
+{
+    font-size: 20px;
+    line-height: 26px;
+
+    margin-top: 31px;
+
+    text-align: center;
+}
+
+.modal .or_call a
+{
+    color: currentColor;
+    font-weight: 700;
+
+    margin-left: 10px;
+
+    text-decoration: none;
+}
+
+
+
 #vacancy_modal
 {
     display: inline-block;

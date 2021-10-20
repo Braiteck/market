@@ -955,4 +955,69 @@
     /*-----------
         PopUp
     -----------*/
+    .modal_data .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .modal .or_call
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .modal_data .modal_parallax1
+    {
+        left: 60px;
+    }
+
+    .modal_data .modal_parallax2
+    {
+        right: -20px;
+    }
+
+    .modal_data .modal_parallax3
+    {
+        left: -13px;
+    }
+
+    .modal_data .modal_parallax4
+    {
+        right: 4px;
+
+        width: 200px;
+        height: auto;
+    }
+
+
+    #vacancy_modal .feedback
+    {
+        overflow: hidden;
+    }
+
+    #vacancy_modal .feedback .vacancy_modal_parallax1
+    {
+        left: 60px;
+    }
+
+    #vacancy_modal .feedback .vacancy_modal_parallax2
+    {
+        right: -20px;
+    }
+
+    #vacancy_modal .feedback .vacancy_modal_parallax3
+    {
+        left: -13px;
+    }
+
+    #vacancy_modal .feedback .vacancy_modal_parallax4
+    {
+        right: 4px;
+
+        width: 200px;
+        height: auto;
+    }
 }
