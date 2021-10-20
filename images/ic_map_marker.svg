@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <filter id="Эллипс_78" x="0" y="0" width="100" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Эллипс_79" x="22" y="22" width="56" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_26121" data-name="Сгруппировать 26121" transform="translate(-852 -1236)">
+    <g transform="matrix(1, 0, 0, 1, 852, 1236)" filter="url(#Эллипс_78)">
+      <circle id="Эллипс_78-2" data-name="Эллипс 78" cx="41" cy="41" r="41" transform="translate(9 6)" fill="#ff2c3b"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 852, 1236)" filter="url(#Эллипс_79)">
+      <circle id="Эллипс_79-2" data-name="Эллипс 79" cx="19" cy="19" r="19" transform="translate(31 28)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

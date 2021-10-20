@@ -1,0 +1,1188 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 48px;
+        --font_size_title_mini: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 92px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 92px;
+        height: 60px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 40px;
+        height: 24px;
+    }
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 40px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -28px;
+        right: -28px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .fancybox__content > .carousel__button.is-close svg
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 20px;
+    }
+
+    .tabs button
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        padding: 12px 32px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        right: 24px;
+
+        margin-right: 0;
+    }
+
+
+    .buttonUp button
+    {
+        width: 60px;
+        height: 80px;
+    }
+
+    .buttonUp button .icon
+    {
+        width: 40px;
+        height: 24px;
+    }
+
+
+
+    /*-------------
+        All link
+    -------------*/
+    .all_link
+    {
+        margin-top: 36px;
+    }
+
+    .all_link a
+    {
+        font-size: 18px;
+        line-height: 20px;
+
+        padding: 20px 52px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo
+    {
+        margin-right: auto;
+    }
+
+    header .logo img
+    {
+        width: 100px;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 28px;
+    }
+
+
+    header .callback_btn
+    {
+        font-size: 11px;
+        line-height: 40px;
+
+        width: 160px;
+        height: 40px;
+        margin-left: auto;
+    }
+
+
+    header .phone
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 40px;
+        padding-top: 8px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 14px;
+
+        padding-left: 292px;
+    }
+
+    .breadcrumbs:before
+    {
+        top: 2px;
+
+        width: 180px;
+        height: 16px;
+    }
+
+    .breadcrumbs:after
+    {
+        left: 200px;
+
+        width: 72px;
+        height: 2px;
+    }
+
+
+    .page_title
+    {
+        line-height: calc(var(--font_size_title) + 6px);
+
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    .page_title.mini
+    {
+        width: 620px;
+    }
+
+
+    .page_head .links
+    {
+        margin-top: 20px;
+    }
+
+    .page_head .links a
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        padding: 12px 32px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 44px;
+    }
+
+    .block_head .title
+    {
+        font-size: calc(var(--font_size_title) - 6px);
+        line-height: var(--font_size_title);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 28px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .form .agree,
+    .form .file
+    {
+        margin-top: -8px;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 8px;
+    }
+
+    .form .submit_btn
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        padding: 20px 48px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .text_block * + h2
+    {
+        margin-top: 48px;
+    }
+
+
+    .text_block ul
+    {
+        margin-bottom: 32px;
+    }
+
+    .text_block ul li
+    {
+        padding-left: 48px;
+    }
+
+    .text_block ul li + li
+    {
+        margin-top: 16px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 8px;
+
+        width: 32px;
+        height: 8px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        margin-top: 48px;
+        margin-bottom: 48px;
+        padding: 20px 164px 20px 24px;
+
+        background-position: calc(100% - 40px) 50%;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        height: 638px;
+        padding-top: 60px;
+    }
+
+
+    .first_section .data
+    {
+        width: 280px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        padding-top: 40px;
+    }
+
+    .first_section .data .title:before
+    {
+        width: 168px;
+        height: 16px;
+    }
+
+
+    .first_section .data .desc_wrap
+    {
+        margin-top: 12px;
+        padding-bottom: 20px;
+    }
+
+    .first_section .data .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 200px;
+    }
+
+
+    .first_section .data .link
+    {
+        font-size: 18px;
+        line-height: 20px;
+
+        padding: 20px 52px;
+    }
+
+
+    .first_section .data .socials
+    {
+        width: 240px;
+    }
+
+
+    .first_section .data .welcome
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 32px;
+        padding: 12px 0 12px 40px;
+    }
+
+
+
+    .first_section .bgs
+    {
+        right: auto;
+        left: 360px;
+
+        width: calc(100vw - 360px);
+        margin-right: 0;
+    }
+
+    .first_section .bgs:before
+    {
+        top: 147px;
+        left: -84px;
+
+        width: 84px;
+        height: 240px;
+    }
+
+
+    .first_section .bgs .logo
+    {
+        width: 280px;
+    }
+
+
+    .first_section .bgs .bg_img
+    {
+        width: 100%;
+    }
+
+    .first_section .bgs .bg_img:before
+    {
+        bottom: 24px;
+        left: -24px;
+
+        width: 24px;
+        height: 96px;
+    }
+
+
+    .first_section .bgs .great_service
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        right: 24px;
+        bottom: 120px;
+
+        padding-left: 92px;
+    }
+
+    .first_section .bgs .great_service:before
+    {
+        width: 76px;
+        height: 2px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .list > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .vacancies .vacancy
+    {
+        padding: 36px;
+    }
+
+
+    .vacancies .vacancy .name
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+    .vacancies .vacancy .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 20px;
+    }
+
+
+    .vacancies .vacancy .salary .val
+    {
+        margin-top: 4px;
+    }
+
+
+    .vacancies .vacancy .link
+    {
+        width: 92px;
+        height: 60px;
+    }
+
+    .vacancies .vacancy .link .icon
+    {
+        width: 40px;
+        height: 24px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .data
+    {
+        width: 900px;
+        padding: 56px 92px;
+
+        border-width: 8px;
+    }
+
+    .feedback .data .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-bottom: 28px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .data
+    {
+        padding: 56px 92px;
+
+        border-width: 8px;
+    }
+
+
+    .vacancy_info .data .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+
+        margin-bottom: 12px;
+    }
+
+    .vacancy_info .data .title.big_margin
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .vacancy_info .data .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .vacancy_info .data .line
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 24px;
+        padding-left: 52px;
+    }
+
+    .vacancy_info .data .line + .line
+    {
+        margin-top: 16px;
+    }
+
+    .vacancy_info .data .line:before
+    {
+        top: 8px;
+        left: -92px;
+
+        width: 124px;
+        height: 8px;
+    }
+
+
+    .vacancy_info .feedback
+    {
+        padding: 40px 92px 48px;
+
+        border-width: 8px;
+    }
+
+    .vacancy_info .feedback .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-bottom: 28px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service .thumb
+    {
+        height: 240px;
+    }
+
+    .services .service .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        min-height: 104px;
+        padding: 24px 40px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -32px;
+        margin-left: -24px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 32px;
+        margin-left: 24px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 132px;
+    }
+
+
+    .advantages .item .info
+    {
+        width: calc(100% - 132px);
+    }
+
+    .advantages .item .info > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .advantages .item .info .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-bottom: 8px;
+    }
+
+    .advantages .item .info .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .case
+    {
+        grid-auto-rows: 272px;
+    }
+
+
+    .cases .case .info
+    {
+        padding: 44px;
+    }
+
+    .cases .case .info .name
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .cases .case .info .location
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 8px;
+    }
+
+    .cases .case .info .desc
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Benefit
+    -------------*/
+    .benefit .pluses
+    {
+        width: calc(100% - 400px);
+
+        column-gap: 40px;
+    }
+
+    .benefit .pluses > *
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        min-height: 72px;
+        padding-left: 64px;
+    }
+
+    .benefit .pluses > *:before
+    {
+        font-size: 72px;
+
+        width: 44px;
+        height: 72px;
+    }
+
+    .benefit .pluses > * br
+    {
+        display: none;
+    }
+
+
+    .benefit .image
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .benefit .image2
+    {
+        width: 360px;
+        height: 600px;
+    }
+
+
+
+    /*------------
+        Result
+    ------------*/
+    .result
+    {
+        padding-top: 0;
+    }
+
+
+    .result .block_title
+    {
+        font-size: 24px;
+        line-height: 32px;
+
+        left: 64px;
+
+        width: 388px;
+        margin-top: 40px;
+        padding-top: 36px;
+        padding-left: 44px;
+    }
+
+    .result .block_title:before
+    {
+        left: 44px;
+
+        width: 192px;
+        height: 16px;
+    }
+
+
+    .result .data
+    {
+        padding: 40px 92px 48px;
+
+        border-width: 8px;
+    }
+
+    .result .data .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-bottom: 28px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 316px;
+    }
+
+
+    .contacts_info .data .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+    .contacts_info .data .time
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 4px;
+    }
+
+
+    .contacts_info .data .row
+    {
+        margin-top: 24px;
+        margin-bottom: -24px;
+    }
+
+    .contacts_info .data .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .contacts_info .data .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .contacts_info .data .item .name:before
+    {
+        height: 12px;
+    }
+
+    .contacts_info .data .item .val
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 12px;
+    }
+
+
+    .contacts_info .data .socials
+    {
+        margin-top: 32px;
+        padding: 16px 52px;
+    }
+
+
+    .contacts_info .consult
+    {
+        width: 560px;
+        margin-right: 0;
+        padding: 56px 92px;
+
+        border-width: 8px;
+    }
+
+
+    .contacts_info .map_wrap
+    {
+        height: 500px;
+        margin-top: 72px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .block_title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -32px;
+    }
+
+    .articles .row > *
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 22px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+
+        display: -webkit-box;
+        overflow: hidden;
+
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+
+    .articles .article .date,
+    .articles .article .link
+    {
+        margin-top: 20px;
+    }
+
+    .articles .article .link .icon
+    {
+        width: 30px;
+        height: 18px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 520px;
+        margin-right: -52px;
+        padding: 36px 88px 36px 36px;
+    }
+
+
+    .about_info .data .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .about_info .data .desc
+    {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+
+        margin-top: 20px;
+    }
+
+    .about_info .data .link
+    {
+        right: 48px;
+        bottom: -64px;
+
+        width: 92px;
+        height: 60px;
+    }
+
+    .about_info .data .link .icon
+    {
+        width: 40px;
+        height: 24px;
+    }
+
+
+    .about_info .image
+    {
+        width: calc(100% - 468px);
+        height: 342px;
+        margin-top: 44px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .data
+    {
+        width: 100%;
+    }
+
+
+    .clients .item
+    {
+        height: 152px;
+    }
+
+
+
+    /*----------------
+        What we do
+    ----------------*/
+    .what_we_do .manager
+    {
+        width: 440px;
+    }
+
+    .what_we_do .manager .photo
+    {
+        height: 524px;
+    }
+
+    .what_we_do .manager .info
+    {
+        font-size: 13px;
+        line-height: 21px;
+
+        margin-top: 32px;
+        padding-left: 172px;
+    }
+
+    .what_we_do .manager .info:before
+    {
+        width: 152px;
+        height: 2px;
+    }
+
+
+    .what_we_do .data
+    {
+        width: calc(100% - 492px);
+        max-width: calc(100% - 492px);
+        min-height: 524px;
+        padding-top: 20px;
+        padding-right: 0;
+        padding-bottom: 92px;
+    }
+
+    .what_we_do .data:after
+    {
+        display: none;
+    }
+
+
+    .what_we_do .data .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+    .what_we_do .data .items
+    {
+        margin-top: 52px;
+    }
+
+    .what_we_do .data .items .col
+    {
+        padding-left: 44px;
+    }
+
+    .what_we_do .data .items .main
+    {
+        margin-bottom: 16px;
+    }
+
+    .what_we_do .data .items .main:before
+    {
+        font-size: 48px;
+        line-height: 43px;
+
+        height: 43px;
+    }
+
+    .what_we_do .data .items .sub > * + *
+    {
+        margin-top: 14px;
+    }
+
+
+    .what_we_do .data .consult_btn
+    {
+        font-size: 18px;
+        line-height: 20px;
+
+        left: -52px;
+
+        padding: 20px 52px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 40px 0;
+    }
+
+
+    footer .logo img
+    {
+        width: 140px;
+    }
+
+
+    footer .info
+    {
+        margin-left: 48px;
+    }
+
+
+    footer .contacts
+    {
+        font-size: 14px;
+
+        margin-top: 28px;
+    }
+
+    footer .contacts .email,
+    footer .contacts .phone
+    {
+        margin-left: 44px;
+    }
+
+
+    footer .copyright
+    {
+        line-height: 24px;
+
+        margin-top: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 100%;
+    }
+}

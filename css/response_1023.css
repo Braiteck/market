@@ -1,0 +1,1055 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 40px;
+        --font_size_title_mini: 32px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 80px;
+        height: 52px;
+    }
+
+    .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .swiper-button-next
+    {
+        right: -24px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 32px;
+        height: 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -20px;
+        right: -20px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+    .fancybox__content > .carousel__button.is-close svg
+    {
+        width: 26px;
+        height: 26px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        padding: 12px 28px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        right: 0;
+    }
+
+
+    .buttonUp button
+    {
+        width: 52px;
+        height: 72px;
+    }
+
+    .buttonUp button .icon
+    {
+        width: 32px;
+        height: 20px;
+    }
+
+
+
+    /*-------------
+        All link
+    -------------*/
+    .all_link
+    {
+        margin-top: 32px;
+    }
+
+    .all_link a
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 16px 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 8px 0 20px;
+
+        background: var(--bg);
+    }
+
+
+    header .logo img
+    {
+        width: 92px;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        padding: 0 24px 24px;
+
+        text-align: center;
+
+        background: var(--bg);
+    }
+
+    header .menu .item + .item
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    header .menu .item a
+    {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 32px;
+        padding-top: 0;
+    }
+
+
+    .breadcrumbs
+    {
+        padding-left: 240px;
+    }
+
+    .breadcrumbs:before
+    {
+        top: 4px;
+
+        width: 140px;
+        height: 13px;
+    }
+
+    .breadcrumbs:after
+    {
+        top: 10px;
+        left: 160px;
+
+        width: 60px;
+        height: 1px;
+    }
+
+
+    .page_title
+    {
+        margin-top: 16px;
+    }
+
+    .page_title.mini
+    {
+        width: 100%;
+    }
+
+
+    .page_head .links a
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        padding: 12px 28px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 24px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .form .agree,
+    .form .file
+    {
+        margin-top: -4px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        padding: 16px 40px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .text_block * + h2
+    {
+        margin-top: 40px;
+    }
+
+
+    .text_block ul
+    {
+        margin-bottom: 28px;
+    }
+
+    .text_block ul li
+    {
+        padding-left: 44px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 7px;
+
+        width: 28px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 20px 164px 20px 24px;
+
+        background-position: calc(100% - 40px) 50%;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        height: 438px;
+        padding-top: 0;
+    }
+
+
+    .first_section .data
+    {
+        width: 252px;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        padding-top: 32px;
+    }
+
+    .first_section .data .title:before
+    {
+        width: 124px;
+        height: 12px;
+    }
+
+    .first_section .data .title:after
+    {
+        display: none;
+    }
+
+
+    .first_section .data .desc_wrap
+    {
+        margin-top: 8px;
+        padding-bottom: 16px;
+    }
+
+    .first_section .data .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 188px;
+    }
+
+
+    .first_section .data .link
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 16px 40px;
+    }
+
+
+    .first_section .data .socials
+    {
+        width: 200px;
+    }
+
+
+    .first_section .data .welcome
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 28px;
+        padding: 8px 0 8px 32px;
+    }
+
+
+
+    .first_section .bgs
+    {
+        left: 312px;
+
+        width: calc(100vw - 312px);
+    }
+
+    .first_section .bgs:before
+    {
+        top: 43px;
+        left: -64px;
+
+        width: 64px;
+        height: 187px;
+    }
+
+
+    .first_section .bgs .logo
+    {
+        width: 220px;
+    }
+
+
+    .first_section .bgs .bg_img:before
+    {
+        bottom: 0;
+        left: -20px;
+
+        width: 20px;
+        height: 40px;
+    }
+
+
+    .first_section .bgs .great_service
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .vacancy
+    {
+        padding: 28px;
+    }
+
+
+    .vacancies .vacancy .info
+    {
+        width: 100%;
+        max-width: calc(100% - 248px);
+    }
+
+
+    .vacancies .vacancy .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .vacancies .vacancy .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 16px;
+    }
+
+
+    .vacancies .vacancy .link
+    {
+        width: 80px;
+        height: 52px;
+    }
+
+    .vacancies .vacancy .link .icon
+    {
+        width: 32px;
+        height: 20px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .data
+    {
+        width: 100%;
+        padding: 44px 60px;
+    }
+
+    .feedback .data:before
+    {
+        bottom: -68px;
+    }
+
+    .feedback .data .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .data
+    {
+        padding: 44px 60px;
+    }
+
+
+    .vacancy_info .data .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .vacancy_info .data .title.big_margin
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .vacancy_info .data .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .vacancy_info .data .line
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        padding-left: 48px;
+    }
+
+    .vacancy_info .data .line:before
+    {
+        top: 7px;
+        left: -60px;
+
+        width: 92px;
+    }
+
+
+    .vacancy_info .feedback
+    {
+        padding: 40px 60px 48px;
+    }
+
+    .vacancy_info .feedback .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service .thumb
+    {
+        height: 200px;
+    }
+
+    .services .service .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        min-height: 0;
+        padding: 20px 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item .icon
+    {
+        width: 100px;
+    }
+
+
+    .advantages .item .info
+    {
+        width: calc(100% - 100px);
+    }
+
+
+    .advantages .item .info .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .case
+    {
+        grid-auto-rows: 232px;
+    }
+
+
+    .cases .case .vert
+    {
+        display: none;
+    }
+
+
+    .cases .case .info
+    {
+        padding: 40px;
+
+        grid-column: 1 / 5;
+    }
+
+    .cases .case .info .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .cases .case .info .location
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 8px;
+    }
+
+    .cases .case .info .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 20px;
+    }
+
+
+    .cases .case .hor
+    {
+        grid-column: 5 / 10;
+    }
+
+    .cases .case .image3
+    {
+        grid-column: 1 / 3;
+    }
+
+    .cases .case .image4
+    {
+        grid-column: 3 / 6;
+    }
+
+    .cases .case .image5
+    {
+        grid-column: 6 / 10;
+    }
+
+
+
+    /*-------------
+        Benefit
+    -------------*/
+    .benefit .pluses
+    {
+        width: calc(100% - 280px);
+
+        column-gap: 24px;
+    }
+
+    .benefit .pluses > *
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        min-height: 52px;
+        padding-left: 44px;
+    }
+
+    .benefit .pluses > *:before
+    {
+        font-size: 52px;
+
+        width: 36px;
+        height: 52px;
+    }
+
+
+    .benefit .image
+    {
+        margin-top: 32px;
+    }
+
+    .benefit .image2
+    {
+        width: 280px;
+        height: 440px;
+    }
+
+
+
+    /*------------
+        Result
+    ------------*/
+    .result .block_title
+    {
+        font-size: 19px;
+        line-height: 27px;
+
+        left: 52px;
+
+        width: 308px;
+        margin-top: 0;
+        padding-top: 28px;
+        padding-left: 40px;
+    }
+
+    .result .block_title:before
+    {
+        left: 40px;
+
+        width: 152px;
+        height: 12px;
+    }
+
+
+    .result .data
+    {
+        width: 100%;
+        margin-top: 40px;
+        padding: 44px 60px;
+    }
+
+    .result .data:before
+    {
+        bottom: -68px;
+    }
+
+    .result .data .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+    .contacts_info .data .time
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .contacts_info .data .item .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .contacts_info .data .item .val
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .contacts_info .consult
+    {
+        width: 100%;
+        margin-top: 60px;
+        padding: 44px 60px;
+    }
+
+
+    .contacts_info .map_wrap
+    {
+        height: 450px;
+        margin-top: 60px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .block_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -24px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(33.333% + 2px);
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 100%;
+        margin-right: 0;
+        padding: 28px 36px;
+    }
+
+
+    .about_info .data .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .about_info .data .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .about_info .data .link
+    {
+        top: -4px;
+        right: -4px;
+        bottom: auto;
+
+        width: 80px;
+        height: 52px;
+    }
+
+    .about_info .data .link .icon
+    {
+        width: 32px;
+        height: 20px;
+    }
+
+
+    .about_info .image
+    {
+        width: 100%;
+        height: auto;
+        margin-top: -4px;
+        padding-bottom: 58.99%;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .item
+    {
+        height: 124px;
+    }
+
+
+
+    /*----------------
+        What we do
+    ----------------*/
+    .what_we_do .manager
+    {
+        width: 260px;
+    }
+
+    .what_we_do .manager .photo
+    {
+        height: 308px;
+    }
+
+    .what_we_do .manager .info
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 24px;
+        padding-left: 40px;
+    }
+
+    .what_we_do .manager .info:before
+    {
+        top: 8px;
+
+        width: 28px;
+    }
+
+
+    .what_we_do .data
+    {
+        width: calc(100% - 300px);
+        max-width: calc(100% - 300px);
+        min-height: 308px;
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+
+
+    .what_we_do .data .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .what_we_do .data .items
+    {
+        margin-top: 28px;
+    }
+
+
+    .what_we_do .data .items .col
+    {
+        width: calc(50% - 12px);
+        padding-left: 32px;
+    }
+
+
+    .what_we_do .data .items .main
+    {
+        font-size: calc(var(--font_size_title_mini) - 6px);
+        line-height: var(--font_size_title_mini);
+    }
+
+    .what_we_do .data .items .main:before
+    {
+        font-size: 36px;
+        line-height: 32px;
+
+        height: 32px;
+    }
+
+
+    .what_we_do .data .items .sub
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .what_we_do .data .items .sub > * + *
+    {
+        margin-top: 8px;
+    }
+
+    .what_we_do .data .items .sub a:before
+    {
+        height: 12px;
+    }
+
+    .what_we_do .data .items .sub a:hover:before
+    {
+        width: calc(100% + 12px);
+    }
+
+
+    .what_we_do .data .consult_btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        left: 0;
+
+        padding: 16px 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 28px;
+    }
+
+
+    footer .logo img
+    {
+        width: 120px;
+    }
+
+
+    footer .info
+    {
+        width: calc(100% - 160px);
+        margin-left: auto;
+    }
+
+
+    footer .contacts
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 28px;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
